@@ -887,6 +887,9 @@ canvas{
     .section-9-intro{
       gap: 1rem;
     }
+    .member{
+      font-size: 1.6rem;
+    }
   
 }
 
