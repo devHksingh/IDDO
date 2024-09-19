@@ -609,7 +609,7 @@ blockquote>q{
 }
 
 .canvas-wrapper{
-  background: #ddd;
+  /* background: #ddd; */
   display: flex;
   gap: 2rem;
   grid-row: 2;
@@ -710,8 +710,10 @@ canvas{
     grid-column: 1/6;
 }
 .section-btn{
-    
+    margin-top: 0;
     grid-column: 1/7;
+    align-content: center;
+    justify-content: center;
     
 }
   .wrap4-icon{
@@ -870,6 +872,20 @@ canvas{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+    }
+    .section-9-wrapper{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      font-size: 1.6rem;
+    }
+    .heading{
+      display: grid;
+      grid-template-columns: 1fr 0.2fr;
+      margin-bottom: 1rem;
+    }
+    .section-9-intro{
+      gap: 1rem;
     }
   
 }
