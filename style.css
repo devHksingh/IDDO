@@ -724,7 +724,7 @@ canvas{
   /* line-height: 95px; */
   padding: 2rem 0.625rem;
   max-width: 10.625rem;
-  font-size: larger;
+  /* font-size: larger; */
   background: #a6a6a6;
   color: #fff;
  }
