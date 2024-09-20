@@ -109,10 +109,10 @@ header {
   max-width: fit-content;
 }
 
-h1 {
+h1 a{
   font-size: 1.875rem;
   cursor: pointer;
-  /* color: #fff; */
+  color: #fff;
   /* max-width: 10%; */
 }
 
