@@ -852,6 +852,22 @@ canvas{
 .wrap-12 button span.fa{ font-size: 36px; vertical-align: middle;} */
 .wrap-12 label:focus-within{ border-color: var(--red); }
 
+.wrap-13{ 
+  background: #252525;
+  padding: 3.125rem 0 1.563rem;
+  color: #fff;
+  text-align: center;
+}
+.wrap-13 h3{ 
+  font-size: 1.5rem;
+}
+.wrap-13 button{ 
+  border: none;
+  background: none;
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
 /* media query */
 @media screen and (max-width: 1220px) {
   .play-btn {
