@@ -90,6 +90,7 @@ header {
   display: none;
 }
 
+
 /* .menu> nav >ul{
     display: flex;
     justify-content: space-between; 
@@ -1140,6 +1141,64 @@ canvas{
     .wrap-12 textarea{
       width: 98%;
     }
+
+    .header-wrapper{
+      position: relative;
+
+    }
+    .mobile-menu{
+      display: none;
+      position: absolute;
+      top: 100%;
+      /* left: -6.6%; */
+      right: -6.6%;
+      /* bottom: -200%; */
+      width: 100%;
+      min-height: 90dvh;
+      background-color: #212121;
+      color: #fff;
+      font-size: 1.6rem;
+      
+      margin: 1rem 0;
+      border-radius: 10px;
+      z-index: 20;
+    }
+    .mobile-menu ul{
+      display: flex;
+      flex-direction: column;
+      gap: 4.4rem;
+      /* justify-content: space-evenly; */
+      padding: 2rem 2.4rem;
+    }
+    .mobile-menu ul li{
+      /* border: solid; */
+      text-align: center;
+    }
+    .mobile-menu ul li a{
+      font-size: 2rem;
+      
+    }
+    /* .mobile-menu ul li button{
+      font-size: 2rem;
+      display: inline-block;
+      width: 100%;
+      padding: 1rem 2.5rem;
+    } */
+    .mobile-sign-btn{
+      padding: 1rem 2.5rem;
+      background-color: #ca3c3c;
+      border-radius: 10px;
+    }
+    .mobile-sign-btn:hover,
+    .mobile-sign-btn:focus,
+    .mobile-sign-btn:active
+    {
+      padding: 1rem 2.5rem;
+      background-color: #898989;
+      color: #fff;
+      border-radius: 10px;
+    }
+    
     
   
 }
