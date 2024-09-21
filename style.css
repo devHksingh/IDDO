@@ -167,6 +167,13 @@ button {
   display: none;
 }
 
+.menu-active{
+  border-bottom: 2px solid #ca3c3c;
+}
+
+.menu ul li a:hover{
+  border-bottom: 2px solid #ca3c3c;
+}
 /* banner */
 
 .banner {
